@@ -1,4 +1,4 @@
-name: Testing Poof
+name: poof
 on:
   push:
     branches:
@@ -7,7 +7,7 @@ on:
 
 jobs:
   build-pygbag:
-    name: Poof game
+    name: Poof-game
     runs-on: ubuntu-latest
 
     steps:

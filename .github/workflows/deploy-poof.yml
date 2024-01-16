@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  build-pygbag:
+  deploy:
     name: Poof game
     runs-on: ubuntu-latest
 
